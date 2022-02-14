@@ -313,8 +313,7 @@ else if (command === "purge"){
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 //                           MUTE COMMAND
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-
-//THIS COMMAND FORCE AND APPLY A ROLE WITH RESTRICTIONS UPON A MEMBER, RESTRICTING THEM OF SOME ACTIVITES IN THE SERVER.
+//THIS COMMAND FORCE AND APPLY A ROLE WITH RESTRICTIONS UPON A MEMBER, RESTRICTING THEM FROM SOME ACTIVITES IN THE SERVER.
 else if (command === 'mute'){   
     if (!message.member.roles.cache.has(managerRole)) {
         return;

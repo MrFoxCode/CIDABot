@@ -2,7 +2,7 @@
 //                           MUTE COMMAND
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
-//THIS COMMAND FORCE AND APPLY A ROLE WITH RESTRICTIONS UPON A MEMBER, RESTRICTING THEM OF SOME ACTIVITES IN THE SERVER.
+//THIS COMMAND FORCE AND APPLY A ROLE WITH RESTRICTIONS UPON A MEMBER, RESTRICTING THEM FROM SOME ACTIVITES IN THE SERVER.
  if (command === 'mute'){   
     if (!message.member.roles.cache.has(managerRole)) {
         return;
@@ -36,7 +36,7 @@
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 //                          UNMUTE COMMAND
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-// UNDO THE MUTE FUNCTION, REMOVING THE ROLE THAT RESTRICTS THE MEMBER OF DOING SOME ACTIVITIES.
+// UNDO THE MUTE FUNCTION, REMOVING THE ROLE THAT RESTRICTS THE MEMBER FROM DOING SOME ACTIVITIES.
 
 else if (command === 'unmute'){   
     if (!message.member.roles.cache.has(managerRole)) {
